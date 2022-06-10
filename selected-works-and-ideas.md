@@ -69,9 +69,10 @@ Sold via [wurfscheibe.de](https://wurfscheibe.de/).
 ![](/assets/2007-font-parole-schablonen.png)
 ![](/assets/2007-font-parole.png)
 
-The typeface with the stencils of the German cabinet (plus some *goodies*) was created after a short exchange with Jürgen Siebert from [Fontblog](https://www.fontblog.de/) / FontShop and with the active support of Axel Mattern based on the DIN Schablonierschrift created by Marian Steinbach.
+The typeface with the stencils of the German cabinet (plus some *goodies*) was created after a short exchange with Jürgen Siebert from [Fontblog](https://www.fontblog.de/) / FontShop and with the active support of Axel Mattern (OTF & Cleanup) based on the DIN Schablonierschrift created by Marian Steinbach.
+I contributed the stencils.
 
-See https://dataloo.de/parole-font-carepaket-fur-den-politischen-widerstand-537.html for more details and the [download](http://www.dataloo.de/wp-content/uploads/parole.zip).
+See [dataloo blog post](https://dataloo.de/parole-font-carepaket-fur-den-politischen-widerstand-537.html) for more details and the [download](http://www.dataloo.de/wp-content/uploads/parole.zip).
 
 It was used in 2009 for banners & images with the claim ["Zensursula"](https://netzpolitik.org/2009/kommentierte-zensursula-linkliste/) during protests against a law to block websites.
 
