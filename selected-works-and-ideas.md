@@ -59,7 +59,8 @@ My part: coding with yii and having fun with twitter bots.
 ![](/assets/2008-wurfscheibe-big-air-helium-orange.jpg)
 {: .d-inline-block .scale-50 }
 
-Based on the Big Air design, Discraft Sky-Styler, Hot Stamp Printing, 2 color variants, limited edition of 100 per variant.
+Discraft Sky-Styler, Hot Stamp Printing, 2 color variants, limited edition of 100 per variant.
+It is based on the Big Air design from 2005.
 Sold via [wurfscheibe.de](https://wurfscheibe.de/).
 
 # 2007
@@ -82,7 +83,7 @@ It was used in 2009 for banners & images with the claim ["Zensursula"](https://n
 
 The idea behind [Aktion Überwach!](https://uberwach.de/): use a tracking pixel to collect data and publicly document which federal and state ministries, government and opposition parties have accessed which participating websites.
 
-Almost 1,000 websites had participated in the project by the its end in 2018. Around 170,000 hits from federal and state ministries and from government and opposition parties were documented.
+Almost 1,000 websites had participated in the project by its end in 2018. Around 170,000 hits from federal and state ministries and from government and opposition parties were documented.
 
 ## Stasi 2.0 Schäublone
 
@@ -93,7 +94,7 @@ A spray stencil. It helped draw more attention to the protests against the plann
 
 With the support of [Spreadshirt](https://www.spreadshirt.de/), T-shirt sales raised more than 10,000 EUR in donations for the Arbeitskreis Vorratsdatenspeicherung, which helped organize the protests.
 
-Nowadays it can also be found in the [German wikipedia] (https://de.wikipedia.org/wiki/Stasi_2.0).
+Nowadays it can also be found in the [German wikipedia](https://de.wikipedia.org/wiki/Stasi_2.0).
 
 Made with Macromedia Freehand
 
@@ -142,7 +143,7 @@ Sold via [wurfscheibe.de](https://wurfscheibe.de/).
 
 ![](/assets/2000-radio-strandgut.jpg)
 
-Radio Strandgut is the successor of Radio Hijackin', which I ran regularly with my friends Mike and Mac in Furtwangen in 1997. Strandgut was the name of the program part that Mac contributed to the show back then.
+Radio Strandgut is the successor of Radio Hijackin', which I ran regularly with my friends Mike and Mac during our studies at Furtwangen University in 1997. Strandgut was the name of the program part that Mac contributed to the show back then.
 
 Online radio, 2 shows, audio streaming via SHOUTcast server on Linux. It was not recorded only broadcasted.
 
