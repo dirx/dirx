@@ -3,7 +3,7 @@ theme: just-the-docs
 
 title: dirx portfolio
 description: about Dirk Adler
-baseurl: "/"
+baseurl: "/dirx"
 url: "https://dirx.github.io"
 
 permalink: pretty
