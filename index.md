@@ -14,6 +14,8 @@ other European countries. And in case you're wondering, it's not a startup anymo
 
 ✒️ I used to write about random stuff on [dataloo](https://dataloo.de/) when blogging was still a thing. By the way, dataloo has its own [font](https://dataloo.de/der-dataloo-font).
 
-🖌️ If you're curious, you can take a look at all the [ideas and projects](https://dirx.github.io/ideas-and-projects/) I've been playing around with or just supporting.
+✨ I contribute to [open source projects](https://dirx.github.io/dirx/open-source-projects/).
+
+🖌️ If you're curious, you can take a look at some [works and ideas](https://dirx.github.io/dirx/selected-works-and-ideas/) I've been playing around with or just supporting over the years.
 
 💛 Find me on [LinkedIn](https://www.linkedin.com/in/dirk-adler-3b484091/), [XING](https://www.xing.com/profile/DirkAlban_Adler), [twitter](https://twitter.com/d_rx), [github](https://github.com/dirx).
