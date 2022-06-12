@@ -15,7 +15,7 @@ My first coded art published on the tezos based platform [fxhash.xyz](https://ww
 
 Zebra follows a simple idea: shifting pixel blocks up, down, right or left and rotating color values according to different rules.
 
-The animation uses the fast deterministic prng xorshift128+. This allows it to be played repeatedly in the same sequence. 
+The animation uses the fast deterministic prng xorshift128. This allows it to be played repeatedly in the same sequence. 
 Width, height and pixel ratio change the sequence of the animation.
 
 [Source code](https://github.com/dirx/fxhash-zebra/tree/1.0.0) is available on github.
