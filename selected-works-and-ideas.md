@@ -7,7 +7,17 @@ Some selected works and ideas that have emerged over the years.
 
 # 2022
 
-## zebra
+## Moving Blocks Mono
+
+![](https://raw.githubusercontent.com/dirx/fxhash-creations/mono/resources/moving-blocks/orange-3circlesand2quads-3-2584--21%C2%B0-1597-left%2Cleft-up%2Cright-down-negative-1-31947444-ootn2iTgutBGJMq2hSBWbA8kEJS54cGWWhbH1Ttx4MepLY7F4j4.png)
+
+Several shapes form boundaries. Within these boundaries, the moving blocks move pixels and rotate their color values from a specific color to black. Each shape has its own direction vector, which affects the feature-based directions and speed of the moving blocks.
+
+My second animated genart published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/moving-blocks-mono).
+
+[Source code](https://github.com/dirx/fxhash-creations/tree/mono) is available on github.
+
+## Zebra
 
 ![](/assets/2022-zebra.png)
 
@@ -18,7 +28,7 @@ Zebra follows a simple idea: shifting pixel blocks up, down, right or left and r
 The animation uses the fast deterministic prng xorshift128. This allows it to be played repeatedly in the same sequence. 
 Width, height and pixel ratio change the sequence of the animation.
 
-[Source code](https://github.com/dirx/fxhash-zebra/tree/1.0.0) is available on github.
+[Source code](https://github.com/dirx/fxhash-creations/tree/zebra) is available on github.
 
 # 2016
 
