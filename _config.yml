@@ -3,8 +3,8 @@ remote_theme: just-the-docs/just-the-docs
 
 title: dirx portfolio
 description: about Dirk Adler
-baseurl: "/dirx"
-url: "https://dirx.github.io"
+baseurl: "/"
+url: "https://dirx.dev"
 
 permalink: pretty
 exclude: [ "Gemfile", "Gemfile.lock" ]
