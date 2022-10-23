@@ -7,6 +7,18 @@ Some selected works and ideas that have emerged over the years.
 
 # 2022
 
+## Driften 
+
+![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/driften/146051555351-ooft3yH1UXBTS5aA9GRNqSTzXxCXhHaSncf3u412iGq9w2PkMAT.png)
+
+This piece evolved from the basic idea of having a simple animated, colorful, circular thing, like a colorful version of Moving Blocks Mono crossed with Zebra. As so often happens, ideas evolve, new ideas emerge, intersect with old ones, and things drift in other directions through beautiful pixel landscapes. And here we are - in Driften - and - once again - it's all about moving pixels and shifting colors.
+
+Driften, by the way, is German for drifting.
+
+My third animated genart published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/driften).
+
+[Source code](https://github.com/dirx/fxhash-creations/tree/driften) is available on github.
+
 ## Moving Blocks Mono
 
 ![](https://raw.githubusercontent.com/dirx/fxhash-creations/mono/resources/moving-blocks/orange-3circlesand2quads-3-2584--21%C2%B0-1597-left%2Cleft-up%2Cright-down-negative-1-31947444-ootn2iTgutBGJMq2hSBWbA8kEJS54cGWWhbH1Ttx4MepLY7F4j4.png)
