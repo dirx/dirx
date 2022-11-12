@@ -9,7 +9,8 @@ Some selected works and ideas that have emerged over the years.
 
 ## Fischbach
 
-![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/fischbach/preview.png)
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/fischbach/preview.png)
+](https://www.fxhash.xyz/generative/slug/fischbach)
 
 The entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.
 
@@ -21,7 +22,8 @@ Real-time deterministic webgl2 animation, interactive, image composition, variab
 
 ## Driften 
 
-![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/driften/146051555351-ooft3yH1UXBTS5aA9GRNqSTzXxCXhHaSncf3u412iGq9w2PkMAT.png)
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/driften/146051555351-ooft3yH1UXBTS5aA9GRNqSTzXxCXhHaSncf3u412iGq9w2PkMAT.png)
+](https://www.fxhash.xyz/generative/slug/driften)
 
 This piece evolved from the basic idea of having a simple animated, colorful, circular thing, like a colorful version of Moving Blocks Mono crossed with Zebra. As so often happens, ideas evolve, new ideas emerge, intersect with old ones, and things drift in other directions through beautiful pixel landscapes. And here we are - in Driften - and - once again - it's all about moving pixels and shifting colors.
 
@@ -34,7 +36,8 @@ Real-time deterministic webgl2 animation, variable size.
 
 ## Moving Blocks Mono
 
-![](https://raw.githubusercontent.com/dirx/fxhash-creations/mono/resources/moving-blocks/orange-3circlesand2quads-3-2584--21%C2%B0-1597-left%2Cleft-up%2Cright-down-negative-1-31947444-ootn2iTgutBGJMq2hSBWbA8kEJS54cGWWhbH1Ttx4MepLY7F4j4.png)
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/mono/resources/moving-blocks/orange-3circlesand2quads-3-2584--21%C2%B0-1597-left%2Cleft-up%2Cright-down-negative-1-31947444-ootn2iTgutBGJMq2hSBWbA8kEJS54cGWWhbH1Ttx4MepLY7F4j4.png)
+](https://www.fxhash.xyz/generative/slug/moving-blocks-mono)
 
 Several shapes form boundaries. Within these boundaries, the moving blocks move pixels and rotate their color values from a specific color to black. Each shape has its own direction vector, which affects the feature-based directions and speed of the moving blocks.
 
@@ -45,7 +48,7 @@ Real-time deterministic webgl2 animation, fixed size.
 
 ## Zebra
 
-![](/assets/2022-zebra.png)
+[![](/assets/2022-zebra.png)](https://www.fxhash.xyz/generative/slug/zebra)
 
 My first coded art published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/zebra).
 
