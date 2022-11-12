@@ -16,6 +16,6 @@ other European countries. And in case you're wondering, it's not a startup anymo
 
 ✨ I contribute to [open source projects](https://dirx.github.io/dirx/open-source-projects/).
 
-🎨 If you're curious, you can take a look at some of the [works and ideas](https://dirx.github.io/dirx/selected-works-and-ideas/) I've played around with or simply supported over the years.
+🎨 If you're curious, you can take a look at some [works and ideas](https://dirx.github.io/dirx/selected-works-and-ideas/) I've played around with or simply supported over the years.
 
-💛 Find me on [LinkedIn](https://www.linkedin.com/in/dirk-adler-3b484091/), [XING](https://www.xing.com/profile/DirkAlban_Adler), [twitter](https://twitter.com/d_rx), [github](https://github.com/dirx).
+💛 Find me on [LinkedIn](https://www.linkedin.com/in/dirk-adler-3b484091/), [XING](https://www.xing.com/profile/DirkAlban_Adler), [twitter](https://twitter.com/d_rx), [github](https://github.com/dirx), [fxhash](https://www.fxhash.xyz/u/dirx), [objkt](https://objkt.com/profile/dirx/created).

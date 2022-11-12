@@ -7,6 +7,18 @@ Some selected works and ideas that have emerged over the years.
 
 # 2022
 
+## Fischbach
+
+![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/fischbach/preview.png)
+
+The entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.
+
+My forth animated genart published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/fischbach).
+This piece is part of the [#fxhashturnsone](https://twitter.com/fx_hash_/status/1589617427683323904?s=20&t=SK1nDwHJ-mZ8yaRJg4KRag) anniversary mint.
+
+Real-time deterministic webgl2 animation, interactive, image composition, variable size.
+[Source code](https://github.com/dirx/fxhash-creations/tree/fischbach) is available on github.
+
 ## Driften 
 
 ![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/driften/146051555351-ooft3yH1UXBTS5aA9GRNqSTzXxCXhHaSncf3u412iGq9w2PkMAT.png)
@@ -17,6 +29,7 @@ Driften, by the way, is German for drifting.
 
 My third animated genart published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/driften).
 
+Real-time deterministic webgl2 animation, variable size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/driften) is available on github.
 
 ## Moving Blocks Mono
@@ -27,6 +40,7 @@ Several shapes form boundaries. Within these boundaries, the moving blocks move 
 
 My second animated genart published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/moving-blocks-mono).
 
+Real-time deterministic webgl2 animation, fixed size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/mono) is available on github.
 
 ## Zebra
@@ -40,6 +54,7 @@ Zebra follows a simple idea: shifting pixel blocks up, down, right or left and r
 The animation uses the fast deterministic prng xorshift128. This allows it to be played repeatedly in the same sequence. 
 Width, height and pixel ratio change the sequence of the animation.
 
+Real-time deterministic canvas 2d rendering context animation, variable size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/zebra) is available on github.
 
 # 2016
