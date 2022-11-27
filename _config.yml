@@ -1,34 +1,33 @@
-remote_theme: just-the-docs/just-the-docs
-#theme: just-the-docs
-
-title: dirx portfolio
-description: about Dirk Adler
-baseurl: "/"
-url: "https://dirx.dev"
+title: dirx.dev
+author:
+  name: Dirk Adler
+description: >
+  Hi, my name is Dirk Adler. Take a look at what I do, my artworks & open source projects.
 
 permalink: pretty
 exclude: [ "Gemfile", "Gemfile.lock" ]
-
 heading_anchors: true
 
-#back_to_top: true
-#back_to_top_text: "Back to top"
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/dirk-adler-3b484091/" }
+    - { platform: xing,     user_url: "https://www.xing.com/profile/DirkAlban_Adler" }
+    - { platform: mastadon, user_url: "https://genart.social/@dirx" }
+    - { platform: twitter,  user_url: "https://twitter.com/d_rx" }
+    - { platform: devto,    user_url: "https://dev.to/dirx" }
+    - { platform: github,   user_url: "https://github.com/dirx" }
 
-#footer_content: "Copyright &copy; Dirk Adler."
+header_pages:
+ - artworks-and-projects.md
+ - open-source-projects.md
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+# Build settings
+theme: minima
 
-color_scheme: dirx
-
-search_enabled: false
-#source: docs
-
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
+plugins:
+  - jekyll-seo-tag
+  - jekyll-redirect-from
 
 compress_html:
   clippings: all

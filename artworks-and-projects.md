@@ -1,13 +1,15 @@
 ---
-layout: default
-title: selected works & ideas
+layout: page
+title: artworks & projects
+redirect_from:
+  - /selected-works-and-ideas/
 ---
 
-Some selected works and ideas that have emerged over the years.
+Some selected artworks, projects and ideas that have emerged over the years.
 
-# 2022
+## 2022
 
-## Alea
+### Alea
 
 [![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/alea/preview.png)
 ](https://www.fxhash.xyz/generative/slug/alea)
@@ -19,7 +21,7 @@ Published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/genera
 Real-time deterministic webgl2 animation, interactive, image composition, fixed size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/alea) is available on github.
 
-## Fischbach
+### Fischbach
 
 [![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/fischbach/preview.png)
 ](https://www.fxhash.xyz/generative/slug/fischbach)
@@ -27,12 +29,12 @@ Real-time deterministic webgl2 animation, interactive, image composition, fixed 
 The entropy of memories in a vivid photo collage that gives me goosebumps while others might just see moving eye candy. Perspective and perception can be so different.
 
 My forth animated genart published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/fischbach).
-This piece is part of the [#fxhashturnsone](https://twitter.com/fx_hash_/status/1589617427683323904?s=20&t=SK1nDwHJ-mZ8yaRJg4KRag) anniversary mint.
+This piece is part of the [##fxhashturnsone](https://twitter.com/fx_hash_/status/1589617427683323904?s=20&t=SK1nDwHJ-mZ8yaRJg4KRag) anniversary mint.
 
 Real-time deterministic webgl2 animation, interactive, image composition, variable size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/fischbach) is available on github.
 
-## Driften 
+### Driften 
 
 [![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/driften/146051555351-ooft3yH1UXBTS5aA9GRNqSTzXxCXhHaSncf3u412iGq9w2PkMAT.png)
 ](https://www.fxhash.xyz/generative/slug/driften)
@@ -46,7 +48,7 @@ My third animated genart published on the tezos based platform [fxhash.xyz](http
 Real-time deterministic webgl2 animation, variable size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/driften) is available on github.
 
-## Moving Blocks Mono
+### Moving Blocks Mono
 
 [![](https://raw.githubusercontent.com/dirx/fxhash-creations/mono/resources/moving-blocks/orange-3circlesand2quads-3-2584--21%C2%B0-1597-left%2Cleft-up%2Cright-down-negative-1-31947444-ootn2iTgutBGJMq2hSBWbA8kEJS54cGWWhbH1Ttx4MepLY7F4j4.png)
 ](https://www.fxhash.xyz/generative/slug/moving-blocks-mono)
@@ -58,7 +60,7 @@ My second animated genart published on the tezos based platform [fxhash.xyz](htt
 Real-time deterministic webgl2 animation, fixed size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/mono) is available on github.
 
-## Zebra
+### Zebra
 
 [![](/assets/2022-zebra.png)](https://www.fxhash.xyz/generative/slug/zebra)
 
@@ -72,9 +74,9 @@ Width, height and pixel ratio change the sequence of the animation.
 Real-time deterministic canvas 2d rendering context animation, variable size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/zebra) is available on github.
 
-# 2016
+## 2016
 
-## Kaja
+### Kaja
 
 ![](/assets/2016-hase-kaja.png)
 
@@ -82,9 +84,9 @@ A mourning work. Portrait of our deceased dwarf rabbit Kaja, created together wi
 
 Portrait, 60 x 80 cm, 9 colors mixed from red, yellow, blue, black and white tempera paint
 
-# 2010
+## 2010
 
-## tschk! talks
+### tschk! talks
 
 ![](/assets/2010-tschk-talks.png)
 
@@ -92,7 +94,7 @@ Proud supporter of [tschk!talks](https://tschk.de/) - a forum for talks by frien
 
 My part: Logo design and running the blog.
 
-## wahl11.de
+### wahl11.de
 
 ![](/assets/2010-wahl11.png)
 
@@ -102,9 +104,9 @@ On wahl11.de you can vote democratically for the German national soccer team. Of
 
 My part: coding with yii and having fun with twitter bots.
 
-# 2008
+## 2008
 
-## Frisbee Big Air Helium
+### Frisbee Big Air Helium
 
 ![](/assets/2008-wurfscheibe-big-air-helium-weiss.jpg)
 {: .d-inline-block .scale-50 }
@@ -115,9 +117,9 @@ Discraft Sky-Styler, Hot Stamp Printing, 2 color variants, limited edition of 10
 It is based on the Big Air design from 2005.
 Sold via [wurfscheibe.de](https://wurfscheibe.de/).
 
-# 2007
+## 2007
 
-## Font Parole
+### Font Parole
 
 ![](/assets/2007-font-parole-schablonen.png)
 ![](/assets/2007-font-parole.png)
@@ -129,7 +131,7 @@ See [dataloo blog post](https://dataloo.de/parole-font-carepaket-fur-den-politis
 
 It was used in 2009 for banners & images with the claim ["Zensursula"](https://netzpolitik.org/2009/kommentierte-zensursula-linkliste/) during protests against a law to block websites.
 
-## Aktion Überwach!
+### Aktion Überwach!
 
 ![](/assets/2007-aktion-uberwach.jpeg)
 
@@ -137,7 +139,7 @@ The idea behind [Aktion Überwach!](https://uberwach.de/): use a tracking pixel 
 
 Almost 1,000 websites had participated in the project by its end in 2018. Around 170,000 hits from federal and state ministries and from government and opposition parties were documented.
 
-## Stasi 2.0 Schäublone
+### Stasi 2.0 Schäublone
 
 ![](/assets/2007-stasi20-schablone.svg)
 {: .pt-6 }
@@ -150,9 +152,9 @@ Nowadays it can also be found in the [German wikipedia](https://de.wikipedia.org
 
 Made with Macromedia Freehand
 
-# 2006
+## 2006
 
-## Frisbee Love
+### Frisbee Love
 
 ![](/assets/2006-wurfscheibe-love-schwarz.jpg)
 {: .d-inline-block .scale-33 }
@@ -164,9 +166,9 @@ Made with Macromedia Freehand
 Discraft UltraStar, Hot Stamp Printing, 3 color variants, limited edition of 125 per variant.
 Sold via [wurfscheibe.de](https://wurfscheibe.de/).
 
-# 2005
+## 2005
 
-## dataloo.de
+### dataloo.de
 
 ![](/assets/2005-dataloo.gif)
 
@@ -175,7 +177,7 @@ We stopped blogging regularly around 2012 - with some erratic and not really suc
 
 At some point we were among the top 30 in the German blog scene - at least for a few months.
 
-## Frisbee Big Air
+### Frisbee Big Air
 
 ![](/assets/2005-wurfscheibe-big-air-orange-blue.jpg)
 {: .d-inline-block .scale-50 }
@@ -189,9 +191,9 @@ At some point we were among the top 30 in the German blog scene - at least for a
 Discraft Sky-Styler, Hot Stamp Printing, 4 color variants, limited edition of 75 per variant.
 Sold via [wurfscheibe.de](https://wurfscheibe.de/).
 
-# 2000
+## 2000
 
-## Radio Strandgut
+### Radio Strandgut
 
 ![](/assets/2000-radio-strandgut.jpg)
 
@@ -203,15 +205,15 @@ My part: jingles production, running the website & hosting the show together wit
 
 We were supported by Martin Wieser with office space & equipment and by 9teen with server hosting.
 
-## k&d
+### k&d
 
 ![](/assets/2000-katrin-and-dirk.png)
 
 Katrin & Dirk, 100x80 cm, 9 colors mixed from red, yellow, blue, black and white tempera paint
 
-# 1997
+## 1997
 
-## Comic Fridolin denkt nach
+### Comic Fridolin denkt nach
 
 ![](/assets/1997-comic-fridolin-cover.png)
 ![](/assets/1997-comic-fridolin.png)
@@ -220,9 +222,9 @@ A comic about a guy named Fridolin, who once again finds himself in the role of 
 
 A Christmas gift, 11 pages, 240g paper, fineliner, double copy with black and red, 20 pieces, limited edition.
 
-# 1996
+## 1996
 
-## First website
+### First website
 
 ![](/assets/1996-first-website.png)
 
@@ -231,15 +233,15 @@ This is probably a screenshot of the third iteration.
 
 Created with text editor and a lot of patience.
 
-# 1995
+## 1995
 
-## Le Car
+### Le Car
 
 ![](/assets/1995-le-car.png)
 
 Game where you drive around in a car and collect stuff. Created with Marcomedia Director and Autodesk 3D Studio DOS.
 
-## Fonts
+### Fonts
 
 Surely inspired by Neville Brody
 
@@ -256,7 +258,7 @@ Surely inspired by Neville Brody
 
 ![](/assets/1995-font-line3.png)
 
-# 1994
+## 1994
 
 ### Font Slack original
 
