@@ -23,7 +23,8 @@ header_pages:
  - open-source-projects.md
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
+#theme: minima
 
 plugins:
   - jekyll-seo-tag
