@@ -7,6 +7,18 @@ Some selected works and ideas that have emerged over the years.
 
 # 2022
 
+## Alea
+
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/alea/preview.png)
+](https://www.fxhash.xyz/generative/slug/alea)
+
+Roll the dice with shapes and capture the moment!
+
+Published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/fischbach).
+
+Real-time deterministic webgl2 animation, interactive, image composition, fixed size.
+[Source code](https://github.com/dirx/fxhash-creations/tree/fischbach) is available on github.
+
 ## Fischbach
 
 [![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/fischbach/preview.png)
