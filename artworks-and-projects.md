@@ -18,7 +18,7 @@ Roll the dice with shapes and capture the moment!
 
 Published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/alea).
 
-Real-time deterministic webgl2 animation, interactive, image composition, fixed size.
+Real-time deterministic webgl2 animation, interactive, fixed size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/alea) is available on github.
 
 ### Fischbach
