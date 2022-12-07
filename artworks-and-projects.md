@@ -9,6 +9,18 @@ Some selected artworks, projects and ideas that have emerged over the years.
 
 ## 2022
 
+### Iacta
+
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/iacta/preview.png)
+](https://www.fxhash.xyz/generative/slug/iacta)
+
+Roll the dice with shapes and capture the moment! Iacta follows Alea.
+
+Published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/iacta).
+
+Real-time deterministic webgl2 animation, interactive, fixed size.
+[Source code](https://github.com/dirx/fxhash-creations/tree/iacta) is available on github.
+
 ### Alea
 
 [![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/alea/preview.png)
