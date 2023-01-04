@@ -7,6 +7,20 @@ redirect_from:
 
 Some selected artworks, projects and ideas that have emerged over the years.
 
+## 2023
+
+### Est
+
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/est/preview.png)
+](https://www.fxhash.xyz/generative/slug/est)
+
+Roll the dice with shapes and capture the moment! Est follows Iacta which follows Alea. So here we are now: alea iacta est.
+
+Published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/est).
+
+Real-time deterministic webgl2 animation, interactive, fixed size.
+[Source code](https://github.com/dirx/fxhash-creations/tree/est) is available on github.
+
 ## 2022
 
 ### Iacta
