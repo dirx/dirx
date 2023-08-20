@@ -5,6 +5,13 @@
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
         <a class="site-title" rel="author" href="{{ '/' | relative_url }}"></a>
+        <script lang="js" defer>
+            let r = Math.floor(Math.random() * 11) * 29;
+            r = r > 170 ? r + 10 : r; // shift > green too long
+            let b = r > 60 && r < 180  ? 1.6 : 1.4; // yellow > green needs more brightness
+            let s = r > 60 && r < 140  ? 1.4 : 1.0; // yellow > green needs more saturation
+            document.getElementsByClassName('site-title').item(0).style.filter = `hue-rotate(${r}deg) brightness(${b}) saturate(${s})`;
+        </script>
 
         {%- if titles_size > 0 -%}
         <nav class="site-nav">
