@@ -9,7 +9,7 @@ Some selected open source projects to which I contribute
 
 ### idealo/php-rdkafka-ffi
 
-This is a Kafka client library for PHP ^7.4 | ^8.0 with a slim librdkafka binding via FFI.
+This is a Kafka client library for PHP ^7.4 / ^8.0 with a slim librdkafka binding via FFI.
 
 [https://github.com/idealo/php-rdkafka-ffi](https://github.com/idealo/php-rdkafka-ffi)
 
