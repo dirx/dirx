@@ -6,7 +6,7 @@ title: about me
 👋 Hi, my name is Dirk Adler.
 
 ⚒️ I work at [idealo](https://jobs.idealo.com/l/en/uber-uns) as a team lead in the product & technology department. idealo is one of the leading price comparison platforms in Germany and
-other European countries. And in case you're wondering, it's not a startup anymore - idealo has over 1100 employees.
+other European countries. And in case you're wondering, it's not a startup anymore - idealo has about 1000 employees.
 
 🪛 I'm [klitsche.de](https://klitsche.de/) when I'm programming for my own clients.
 
