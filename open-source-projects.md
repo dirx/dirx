@@ -36,3 +36,13 @@ ffigen is a simple cli helper to quickly generate and update low level PHP FFI b
 A library for PHP exposing libclang via FFI.
 
 [https://github.com/klitsche/clang-ffi](https://github.com/klitsche/clang-ffi)
+
+## Typescript
+
+### png-rw
+
+Quick & easy PNG chunks reader / writer.
+
+Main focus: add metadata like exif, xmp, png textual tags, icc profile to captured canvas blobs.
+
+[https://github.com/dirx/png-rw](https://github.com/dirx/png-rw)
