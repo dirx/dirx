@@ -13,8 +13,8 @@ minima:
   social_links:
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/dirk-adler-3b484091/" }
     - { platform: xing,     user_url: "https://www.xing.com/profile/DirkAlban_Adler" }
-    - { platform: mastadon, user_url: "https://genart.social/@dirx" }
-    - { platform: twitter,  user_url: "https://twitter.com/d_rx" }
+    - { platform: mastodon, user_url: "https://genart.social/@dirx" }
+    - { platform: x,  user_url: "https://x.com/d_rx" }
     - { platform: devto,    user_url: "https://dev.to/dirx" }
     - { platform: github,   user_url: "https://github.com/dirx" }
 
