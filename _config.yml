@@ -23,7 +23,7 @@ header_pages:
  - open-source-projects.md
 
 # Build settings
-remote_theme: jekyll/minima@1e6da7d
+remote_theme: jekyll/minima@1d5286c
 #theme: minima
 
 plugins:
