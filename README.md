@@ -15,4 +15,4 @@ other European countries. And in case you're wondering, it's not a startup anymo
 
 🖼️ Find my genart on [fxhash](https://www.fxhash.xyz/u/dirx), [objkt](https://objkt.com/profile/dirx/created).
 
-💛 Find me on [LinkedIn](https://www.linkedin.com/in/dirk-adler-3b484091/), [XING](https://www.xing.com/profile/DirkAlban_Adler), [github](https://github.com/dirx), [X](https://x.com/d_rx), [genart.social](https://genart.social/@dirx).
+💛 Find me on [LinkedIn](https://www.linkedin.com/in/dirk-adler-3b484091/), [XING](https://www.xing.com/profile/DirkAlban_Adler), [github](https://github.com/dirx), [X](https://x.com/d_rx), [genart.social](https://genart.social/@dirx), [warpcast](https://warpcast.com/dirx), [rodeo.club](https://rodeo.club/@dirx").
