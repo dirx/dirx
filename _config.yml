@@ -17,6 +17,8 @@ minima:
     - { platform: x,  user_url: "https://x.com/d_rx" }
     - { platform: devto,    user_url: "https://dev.to/dirx" }
     - { platform: github,   user_url: "https://github.com/dirx" }
+    - { platform: farcaster,   user_url: "https://warpcast.com/dirx" }
+    - { platform: rodeo,   user_url: "https://rodeo.club/@dirx" }
 
 header_pages:
  - artworks-and-projects.md
