@@ -7,6 +7,18 @@ redirect_from:
 
 Some selected artworks, projects and ideas that have emerged over the years.
 
+## 2025
+
+### Still A
+
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/still-a/preview.png)
+](https://www.fxhash.xyz/generative/slug/still-a)
+
+Published on the tezos/ethereum based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/still-a).
+
+Real-time deterministic svg image, flexible size.
+[Source code](https://github.com/dirx/fxhash-creations/tree/still-a) is available on github.
+
 ## 2023
 
 ### Est
