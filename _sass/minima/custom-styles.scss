@@ -39,7 +39,32 @@
 }
 
 .site-header {
+  position: relative;
   border: none;
+}
+
+.site-nav .page-link {
+  color: #111;
+  line-height: 1.5;
+  padding: 5px 10px;
+}
+
+head:has(link[rel="canonical"][href$="/artworks-and-projects/"]) + body .page-link[href$="/artworks-and-projects/"] {
+  text-decoration: underline;
+}
+
+head:has(link[rel="canonical"][href$="/open-source-projects/"]) + body .page-link[href$="/open-source-projects/"] {
+  text-decoration: underline;
+}
+
+.page-content {
+  padding-top: 30px;
+}
+
+.post-header {
+  text-align: left;
+  border-bottom: none;
+  margin-bottom: 10px;
 }
 
 h1, h2, h4 {

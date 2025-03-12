@@ -11,31 +11,33 @@ heading_anchors: true
 minima:
   date_format: "%b %-d, %Y"
   social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/dirk-adler-3b484091/" }
-    - { platform: xing,     user_url: "https://www.xing.com/profile/DirkAlban_Adler" }
-    - { platform: mastodon, user_url: "https://genart.social/@dirx" }
-    - { platform: x,  user_url: "https://x.com/d_rx" }
-    - { platform: devto,    user_url: "https://dev.to/dirx" }
-    - { platform: github,   user_url: "https://github.com/dirx" }
-    - { platform: farcaster,   user_url: "https://warpcast.com/dirx" }
-    - { platform: rodeo,   user_url: "https://rodeo.club/@dirx" }
+    - { platform: linkedin,   title: "LinkedIn",    url: "https://www.linkedin.com/in/dirk-adler-3b484091/" }
+    - { platform: xing,       title: "XING",        url: "https://www.xing.com/profile/DirkAlban_Adler" }
+    - { platform: mastodon,   title: "mastodon",    url: "https://genart.social/@dirx" }
+    - { platform: x,          title: "X",           url: "https://x.com/d_rx" }
+    - { platform: devto,      title: "DEV",         url: "https://dev.to/dirx" }
+    - { platform: github,     title: "GitHub",      url: "https://github.com/dirx" }
+    - { platform: farcaster,  title: "Warpcast",    url: "https://warpcast.com/dirx" }
+    - { platform: rodeo,      title: "Rodeo.club",  url: "https://rodeo.club/@dirx" }
 
 header_pages:
- - artworks-and-projects.md
- - open-source-projects.md
+  - artworks-and-projects.md
+  - open-source-projects.md
 
 # Build settings
-remote_theme: jekyll/minima@1d5286c
+remote_theme: jekyll/minima@43f3ed0
 #theme: minima
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-feed
 
 compress_html:
   clippings: all
   comments: all
   endings: all
-  startings: []
+  startings: [ ]
   blanklines: false
   profile: false
