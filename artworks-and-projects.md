@@ -9,10 +9,18 @@ Some selected artworks, projects and ideas that have emerged over the years.
 
 ## 2025
 
+### Still C
+
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/still-c/preview.svg)](https://www.fxhash.xyz/generative/slug/still-c)
+
+Published on the tezos/ethereum based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/still-c).
+
+Real-time deterministic svg image, flexible size.
+[Source code](https://github.com/dirx/fxhash-creations/tree/still-c) is available on github.
+
 ### Still A
 
-[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/still-a/preview.png)
-](https://www.fxhash.xyz/generative/slug/still-a)
+[![](https://raw.githubusercontent.com/dirx/fxhash-creations/about/resources/still-a/preview.svg)](https://www.fxhash.xyz/generative/slug/still-a)
 
 Published on the tezos/ethereum based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/still-a).
 
@@ -104,10 +112,10 @@ Real-time deterministic webgl2 animation, fixed size.
 
 My first coded art published on the tezos based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/zebra).
 
-Zebra follows a simple idea: shifting pixel blocks up, down, right or left and rotating color values according to different rules.
+Zebra follows a simple idea: shifting pixel blocks up, down, right, or left and rotating color values according to different rules.
 
 The animation uses the fast deterministic prng xorshift128. This allows it to be played repeatedly in the same sequence. 
-Width, height and pixel ratio change the sequence of the animation.
+Width, height, and pixel ratio change the sequence of the animation.
 
 Real-time deterministic canvas 2d rendering context animation, variable size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/zebra) is available on github.
@@ -120,7 +128,7 @@ Real-time deterministic canvas 2d rendering context animation, variable size.
 
 A mourning work. Portrait of our deceased dwarf rabbit Kaja, created together with my children. 
 
-Portrait, 60 x 80 cm, 9 colors mixed from red, yellow, blue, black and white tempera paint
+Portrait, 60 x 80 cm, 9 colors mixed from red, yellow, blue, black, and white tempera paint
 
 ## 2010
 
@@ -128,7 +136,7 @@ Portrait, 60 x 80 cm, 9 colors mixed from red, yellow, blue, black and white tem
 
 ![](/assets/2010-tschk-talks.png)
 
-Proud supporter of [tschk!talks](https://tschk.de/) - a forum for talks by friends for friends, often in the form of two short talks, conversations, drinks and music in Berlin Kreuzberg. The talks were initiated by my friends Mac & Tons. The last tschk!talks event was at the end of 2017.
+Proud supporter of [tschk!talks](https://tschk.de/) - a forum for talks by friends for friends, often in the form of two short talks, conversations, drinks, and music in Berlin Kreuzberg. The talks were initiated by my friends Mac & Tons. The last tschk!talks event was at the end of 2017.
 
 My part: Logo design and running the blog.
 
@@ -173,7 +181,7 @@ It was used in 2009 for banners & images with the claim ["Zensursula"](https://n
 
 ![](/assets/2007-aktion-uberwach.jpeg)
 
-The idea behind [Aktion Überwach!](https://uberwach.de/): use a tracking pixel to collect data and publicly document which federal and state ministries, government and opposition parties have accessed which participating websites.
+The idea behind [Aktion Überwach!](https://uberwach.de/): use a tracking pixel to collect data and publicly document which federal and state ministries, government, and opposition parties have accessed which participating websites.
 
 Almost 1,000 websites had participated in the project by its end in 2018. Around 170,000 hits from federal and state ministries and from government and opposition parties were documented.
 
@@ -247,7 +255,7 @@ We were supported by Martin Wieser with office space & equipment and by 9teen wi
 
 ![](/assets/2000-katrin-and-dirk.png)
 
-Katrin & Dirk, 100x80 cm, 9 colors mixed from red, yellow, blue, black and white tempera paint
+Katrin & Dirk, 100x80 cm, 9 colors mixed from red, yellow, blue, black, and white tempera paint
 
 ## 1997
 
