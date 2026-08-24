@@ -22,6 +22,8 @@ Real-time deterministic svg image, flexible size.
 
 Published on the tezos/ethereum based platform [fxhash.xyz](https://www.fxhash.xyz/generative/slug/still-a).
 
+Also available on [Verse](https://verse.works/series/still-a-by-dirx).
+
 Real-time deterministic svg image, flexible size.
 [Source code](https://github.com/dirx/fxhash-creations/tree/still-a) is available on github.
 
