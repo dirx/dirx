@@ -12,6 +12,29 @@ const title = frontmatter.title ? `${frontmatter.title} | ${siteTitle}` : siteTi
 <!doctype html>
 <html lang="en">
   <head>
+    <script is:inline>
+      (() => {
+        const storageKey = 'color-mode';
+        const modes = ['light', 'dark', 'system'];
+        const root = document.documentElement;
+        let mode = 'system';
+
+        try {
+          const savedMode = localStorage.getItem(storageKey);
+          if (modes.includes(savedMode)) mode = savedMode;
+        } catch {
+          // Storage can be unavailable in private browsing contexts.
+        }
+
+        const palette = mode === 'system'
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+          : mode;
+
+        root.dataset.colorMode = mode;
+        root.dataset.colorPalette = palette;
+        root.style.colorScheme = palette;
+      })();
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{title}</title>

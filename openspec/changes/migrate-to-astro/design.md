@@ -27,7 +27,7 @@ This keeps content authoring close to its current form and avoids runtime hostin
 
 ### Tailwind CSS owns local styling
 
-Use the current, Astro-compatible Tailwind CSS integration. Translate the small Minima override surface and required layout styles into Tailwind utilities and, only where appropriate, a concise global stylesheet for base typography, font declarations, and prose-content rules.
+Use the current, Astro-compatible Tailwind CSS integration. Translate the small Minima override surface and required layout styles into Tailwind utilities and, only where appropriate, a concise global stylesheet for base typography, font declarations, and prose-content rules. Set the primary navigation link typography to 18px at every responsive breakpoint.
 
 Tailwind centralizes the new styling pipeline. Retaining Minima's Sass would keep the deprecated Jekyll coupling, while a large custom CSS rewrite is unnecessary for this small site.
 

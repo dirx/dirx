@@ -12,6 +12,7 @@
 - [x] 2.3 Recreate the existing typography, custom font loading, logo treatment, content-image layout, and mobile navigation with Tailwind and minimal global CSS.
 - [x] 2.4 Add the permanent `/selected-works-and-ideas/` redirect to `/artworks-and-projects/`.
 - [x] 2.5 Replace the copied Outfit webfont with `@fontsource-variable/outfit` and synchronize the About page and shared social footer with the live X, Warpcast, and Rodeo.club profiles.
+- [x] 2.6 Set the primary navigation link font size to 18px at every responsive breakpoint.
 
 ## 3. GitHub Pages deployment
 

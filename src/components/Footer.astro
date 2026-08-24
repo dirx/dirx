@@ -1,4 +1,6 @@
 ---
+import { Icon } from 'astro-icon/components';
+
 const links = [
   { href: 'https://www.linkedin.com/in/dirk-adler-3b484091/', label: 'LinkedIn', icon: 'linkedin' },
   { href: 'https://www.xing.com/profile/DirkAlban_Adler', label: 'XING', icon: 'xing' },
@@ -9,17 +11,85 @@ const links = [
   { href: 'https://warpcast.com/dirx', label: 'Warpcast', icon: 'farcaster' },
   { href: 'https://rodeo.club/@dirx', label: 'Rodeo.club', icon: 'rodeo' },
 ];
+
+const colorModes = [
+  { value: 'light', label: 'Light', icon: 'material-symbols-light:light-mode-outline-rounded' },
+  { value: 'dark', label: 'Dark', icon: 'material-symbols-light:dark-mode-outline-rounded' },
+  { value: 'system', label: 'System', icon: 'material-symbols-light:monitor-outline-rounded' },
+];
 ---
 
-<footer class="mx-auto max-w-3xl px-5 py-12 sm:px-8">
+<footer class="mx-auto flex max-w-3xl flex-col gap-6 px-5 py-12 sm:flex-row sm:items-center sm:justify-between sm:px-8">
   <ul class="flex flex-wrap items-center gap-4" aria-label="Social profiles">
     {links.map((link) => (
       <li>
-        <a class="group inline-flex text-zinc-400 no-underline hover:text-zinc-900" href={link.href} rel={link.rel} aria-label={link.label}>
+        <a class="footer-link group inline-flex no-underline" href={link.href} rel={link.rel} aria-label={link.label}>
           <svg class="size-5 fill-current" aria-hidden="true"><use href={`/assets/icons/social.svg#${link.icon}`} /></svg>
           <span class="sr-only">{link.label}</span>
         </a>
       </li>
     ))}
   </ul>
+  <fieldset class="color-mode-control self-end" data-color-mode-control>
+    <legend class="sr-only">Color mode</legend>
+    {colorModes.map((mode) => (
+      <label>
+        <input type="radio" name="color-mode" value={mode.value} />
+        <Icon name={mode.icon} size="20" aria-hidden="true" />
+        <span class="sr-only">{mode.label}</span>
+      </label>
+    ))}
+  </fieldset>
 </footer>
+
+<script>
+  const controls = document.querySelector<HTMLElement>('[data-color-mode-control]');
+  const storageKey = 'color-mode';
+  const modes = ['light', 'dark', 'system'];
+  const root = document.documentElement;
+  const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  let mode = root.dataset.colorMode;
+
+  if (!modes.includes(mode ?? '')) mode = 'system';
+
+  const applyMode = () => {
+    const palette = mode === 'system' ? mediaQuery.matches ? 'dark' : 'light' : mode;
+    root.dataset.colorMode = mode;
+    root.dataset.colorPalette = palette;
+    root.style.colorScheme = palette;
+  };
+
+  const updateControls = () => {
+    controls?.querySelectorAll<HTMLInputElement>('input[type="radio"]').forEach((input) => {
+      input.checked = input.value === mode;
+    });
+  };
+
+  const handleSystemChange = () => {
+    if (mode === 'system') applyMode();
+  };
+
+  const updateSystemListener = () => {
+    mediaQuery.removeEventListener('change', handleSystemChange);
+    if (mode === 'system') mediaQuery.addEventListener('change', handleSystemChange);
+  };
+
+  controls?.addEventListener('change', (event) => {
+    const input = event.target as HTMLInputElement;
+    if (!modes.includes(input.value)) return;
+
+    mode = input.value;
+    try {
+      localStorage.setItem(storageKey, mode);
+    } catch {
+      // Continue with the selected mode when storage is unavailable.
+    }
+    applyMode();
+    updateControls();
+    updateSystemListener();
+  });
+
+  applyMode();
+  updateControls();
+  updateSystemListener();
+</script>

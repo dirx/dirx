@@ -5,11 +5,15 @@ Provide the personal site as a static build while preserving its content, public
 ## ADDED Requirements
 
 ### Requirement: Site content and routes are preserved
-The site SHALL render an About page at `/`, an Artworks & Projects page at `/artworks-and-projects/`, and an Open Source page at `/open-source-projects/`. It SHALL preserve the existing page text, current social-profile links, images, favicon assets, and the visual identity represented by the current header, navigation, typography, and social footer.
+The site SHALL render an About page at `/`, an Artworks & Projects page at `/artworks-and-projects/`, and an Open Source page at `/open-source-projects/`. It SHALL preserve the existing page text, current social-profile links, images, favicon assets, and the visual identity represented by the current header, navigation, typography, and social footer. Primary navigation links SHALL use an 18px font size.
 
 #### Scenario: A visitor opens a primary page
 - **WHEN** a visitor requests `/`, `/artworks-and-projects/`, or `/open-source-projects/`
 - **THEN** the response renders the corresponding existing content with navigation to the other primary pages
+
+#### Scenario: A visitor views primary navigation
+- **WHEN** a visitor views the primary navigation at any supported viewport width
+- **THEN** each primary navigation link is rendered at a font size of 18px
 
 #### Scenario: A visitor loads a static asset
 - **WHEN** a page requests an existing asset under `/assets/`
