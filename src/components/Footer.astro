@@ -1,0 +1,25 @@
+---
+const links = [
+  { href: 'https://www.linkedin.com/in/dirk-adler-3b484091/', label: 'LinkedIn', icon: 'linkedin' },
+  { href: 'https://www.xing.com/profile/DirkAlban_Adler', label: 'XING', icon: 'xing' },
+  { href: 'https://genart.social/@dirx', label: 'Mastodon', icon: 'mastodon', rel: 'me' },
+  { href: 'https://x.com/d_rx', label: 'X', icon: 'x' },
+  { href: 'https://dev.to/dirx', label: 'DEV', icon: 'devto' },
+  { href: 'https://github.com/dirx', label: 'GitHub', icon: 'github' },
+  { href: 'https://warpcast.com/dirx', label: 'Warpcast', icon: 'farcaster' },
+  { href: 'https://rodeo.club/@dirx', label: 'Rodeo.club', icon: 'rodeo' },
+];
+---
+
+<footer class="mx-auto max-w-3xl px-5 py-12 sm:px-8">
+  <ul class="flex flex-wrap items-center gap-4" aria-label="Social profiles">
+    {links.map((link) => (
+      <li>
+        <a class="group inline-flex text-zinc-400 no-underline hover:text-zinc-900" href={link.href} rel={link.rel} aria-label={link.label}>
+          <svg class="size-5 fill-current" aria-hidden="true"><use href={`/assets/icons/social.svg#${link.icon}`} /></svg>
+          <span class="sr-only">{link.label}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</footer>

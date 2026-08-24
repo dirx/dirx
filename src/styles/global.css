@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "@fontsource-variable/outfit/wght.css";
+
+@theme {
+  --font-sans: "Outfit Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply m-0 bg-white text-[18px] font-extralight leading-tight text-zinc-900;
+  }
+
+  a {
+    @apply text-inherit underline decoration-zinc-400 underline-offset-4 hover:decoration-zinc-900;
+  }
+
+  h1, h2, h3, h4 {
+    @apply mt-10 font-extralight leading-tight;
+  }
+
+  h1 { @apply text-4xl; }
+  h2 { @apply text-3xl; }
+  h3 { @apply text-2xl font-medium; }
+  h4 { @apply text-xl; }
+  strong, b { @apply font-medium; }
+}
+
+@layer components {
+  .page-content p { @apply my-5; }
+  .page-content img { @apply my-5 h-auto max-w-full; }
+  .page-content > p:has(> img) { @apply flex flex-wrap gap-4; }
+  .page-content > p:has(> img) > img { @apply my-0; }
+  .page-content .scale-50 { @apply w-[calc(50%-0.5rem)]; }
+  .page-content .scale-33 { @apply w-[calc(33.333%-0.75rem)]; }
+  .page-content .pt-6 { @apply pt-6; }
+}

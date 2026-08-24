@@ -1,3 +1,8 @@
+---
+layout: ../layouts/BaseLayout.astro
+title: about me
+---
+
 👋 Hi, my name is Dirk Adler.
 
 ⚒️ I work at [idealo](https://jobs.idealo.com/l/en/uber-uns) as a team lead in the product & technology department. idealo is one of the leading price comparison platforms in Germany and
@@ -15,19 +20,4 @@ other European countries. And in case you're wondering, it's not a startup anymo
 
 🖼️ Find my genart on [fxhash](https://www.fxhash.xyz/u/dirx), [objkt](https://objkt.com/profile/dirx/created).
 
-💛 Find me on [LinkedIn](https://www.linkedin.com/in/dirk-adler-3b484091/), [XING](https://www.xing.com/profile/DirkAlban_Adler), [github](https://github.com/dirx), [twitter](https://twitter.com/d_rx), [genart.social](https://genart.social/@dirx).
-
-## Development
-
-Use pnpm with the version recorded in `package.json`:
-
-```sh
-pnpm install --frozen-lockfile
-pnpm dev
-```
-
-`pnpm build` writes the static site to `dist/`; `pnpm preview` serves that output locally.
-
-## GitHub Pages
-
-The deployment workflow runs on pushes to `main` and can also be run manually. Once, in the GitHub repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. GitHub Pages receives `dist/`, which includes `CNAME` for `dirx.dev`.
+💛 Find me on [LinkedIn](https://www.linkedin.com/in/dirk-adler-3b484091/), [XING](https://www.xing.com/profile/DirkAlban_Adler), [github](https://github.com/dirx), [X](https://x.com/d_rx), [genart.social](https://genart.social/@dirx), [warpcast](https://warpcast.com/dirx), [rodeo.club](https://rodeo.club/@dirx).

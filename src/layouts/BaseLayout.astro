@@ -1,0 +1,42 @@
+---
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import '../styles/global.css';
+
+const { frontmatter = {} } = Astro.props;
+const siteTitle = 'dirx.dev';
+const description = 'Hi, my name is Dirk Adler. Take a look at what I do, my artworks & open source projects.';
+const title = frontmatter.title ? `${frontmatter.title} | ${siteTitle}` : siteTitle;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon/favicon.ico" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="me" href="https://mastodon.social/@dirx" />
+    <link rel="me" href="https://genart.social/@dirx" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/assets/logos/dirx-400x400.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@d_rx" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/assets/logos/dirx-400x400.png" />
+  </head>
+  <body>
+    <Header currentPath={Astro.url.pathname} />
+    <main class="page-content mx-auto max-w-3xl px-5 pb-4 sm:px-8">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
